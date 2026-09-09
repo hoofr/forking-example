@@ -1,20 +1,18 @@
-#-----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 import random
 
-#-----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+
 
 def get_contributions():
-
     """
     Each student should add their name and a fun fact or a short fact in the 'contributions' list below.
     Example: ("Alice", "I love Python!")
     """
     contributions = [
-
         # Teacher contribution
         ("Ruud", "Ik ben getrouwd, maar woon niet samen."),
-        
         # Students, add your entries here:
         ("Koiya", "Your fun fact"),
         ("Yasin", "Your fun fact"),
@@ -32,7 +30,7 @@ def get_contributions():
         ("Saif", "Your fun fact"),
         ("Artur", "Your fun fact"),
         ("Yashin", "Your fun fact"),
-        ("Tabitha", "Your fun fact"),
+        ("Tabitha", "Ik heb mijn middelbare school in zuid Frankrijk gedaan"),
         ("Matthijs", "Your fun fact"),
         ("Yash", "Your fun fact"),
         ("Daan", "Your fun fact"),
@@ -42,12 +40,13 @@ def get_contributions():
         ("Kelvin", "Your fun fact"),
         ("Rafael", "Your fun fact"),
         ("Lennard", "Your fun fact"),
-
     ]
 
     return contributions
 
-#-----------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
+
 
 def main():
 
@@ -56,9 +55,9 @@ def main():
     if not contributions:
 
         print("No contributions yet. Add some first!")
-        
+
         return
-    
+
     # Shuffle contributions to ensure random order without repeats
     random.shuffle(contributions)
 
@@ -69,30 +68,31 @@ def main():
     print("=" * 40)
 
     print("Press Enter to see the next fact, or type 'q' to quit.\n")
-    
+
     while contributions:
-            
+
         user_input = input(">> ")
-        
+
         if user_input.lower() in {"q", "quit"}:
-            
+
             print("Goodbye! 👋")
-            
+
             break
 
         # Remove from list (no repeats)
         name, fact = contributions.pop()
-        
+
         print(f"- {name}: {fact}\n")
-    
+
     if not contributions:
 
         print("✅ All contributions have been shown!")
 
-#-----------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
 
 if __name__ == "__main__":
 
     main()
 
-#-----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
