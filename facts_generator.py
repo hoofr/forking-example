@@ -22,7 +22,7 @@ def get_contributions():
         ("Ihssane", "Your fun fact"),
         ("Adam", "Your fun fact"),
         ("Bart", "Your fun fact"),
-        ("Thomas", "Your fun fact"),
+        ("Thomas", "I prefer strong types languages"),
         ("Jade", "Your fun fact"),
         ("Floris", "Your fun fact"),
         ("Jeffrey", "Your fun fact"),
