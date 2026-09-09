@@ -17,7 +17,7 @@ def get_contributions():
         
         # Students, add your entries here:
         ("Koiya", "Ik speel gitaar."),
-        ("Yasin", "Your fun fact"),
+        ("Yasin", "ik haat fietsen"),
         ("Alaa", "Your fun fact"),
         ("Ihssane", "Your fun fact"),
         ("Adam", "Your fun fact"),
