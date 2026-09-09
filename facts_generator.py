@@ -13,7 +13,7 @@ def get_contributions():
     contributions = [
 
         # Teacher contribution
-        ("Ruud", "Ik ben getrouwd, maar woon niet samen."),
+        ("Ruud", "Ik ben getrouwd, maar woon wel samen."),
         
         # Students, add your entries here:
         ("Koiya", "Your fun fact"),
