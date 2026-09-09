@@ -16,7 +16,7 @@ def get_contributions():
         ("Ruud", "Ik ben getrouwd, maar woon niet samen."),
         
         # Students, add your entries here:
-        ("Koiya", "Your fun fact"),
+        ("Koiya", "Ik speel gitaar."),
         ("Yasin", "Your fun fact"),
         ("Alaa", "Your fun fact"),
         ("Ihssane", "Your fun fact"),
